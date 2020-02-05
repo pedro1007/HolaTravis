@@ -3,7 +3,8 @@ python:
   - "3.7"
 
 script:
-  ech "Hola mundo de Travis"
+  echo "Hola mundo de Travis"
+  python test.py -v
 notifications:
 email: false
 
